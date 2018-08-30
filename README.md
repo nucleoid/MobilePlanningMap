@@ -1,9 +1,4 @@
 Mobile Planning Map
 ==============
 
-
-Author
-------
-
-Mitchell Statz
-# MobilePlanningMap
+Project created for a MediaSuite learning lunch.
