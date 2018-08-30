@@ -1,7 +1,6 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
-using System.Diagnostics;
 
 namespace MobilePlanningMap
 {

@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 
@@ -20,7 +19,6 @@ namespace MobilePlanningMap
         {
             base.OnStart();
 
-// var worksites = Task.Run(async () => await MwsRestService.LatestAtWorksitesAsync()).Result;
             var worksites = await MwsRestService.LatestAtWorksitesAsync();
             var map = new DrawableMap
             {

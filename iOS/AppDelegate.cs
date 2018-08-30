@@ -1,11 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
 using Foundation;
 using UIKit;
-
-using Xamarin.Forms;
 
 namespace MobilePlanningMap.iOS
 {
@@ -18,7 +12,7 @@ namespace MobilePlanningMap.iOS
 			global::Xamarin.Forms.Forms.Init ();
 			global::Xamarin.FormsMaps.Init ();
 
-            LoadApplication (new MobilePlanningMap.App ());
+            LoadApplication (new App ());
 
 			return base.FinishedLaunching (app, options);
 		}
